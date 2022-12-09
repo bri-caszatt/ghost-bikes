@@ -15,6 +15,7 @@ nycMap.setView([40.75042, -73.98928], 12);
 const bikeIcon = L.icon({
     iconUrl: 'bike.png',
     iconSize: [25, 25], // size of the icon
+    popupAnchor:  [-3, -10] // point from which the popup should open relative to the iconAnchor
 });
 
 // adding ghost bike coordinates
@@ -47,3 +48,11 @@ const polyline = L.polyline([
 ], {
     color: "blue"
 }).addTo(nycMap);
+
+// add popups to each ghost bike with name, age, photo, and link to Ghost Bike Project
+salvadorCR.bindPopup("<h2>Salvador Chairez-Rodriguez, Age 50</h2><img src='https://briannacaszatt.commons.gc.cuny.edu/wp-content/blogs.dir/18156/files/2022/07/31Ave_51St-scaled.jpg' alt='Ghost Bike in Queens' style='width:256px;height:121px;'><br><a href='http://ghostbikes.org/new-york-city/salvador-chairez-rodriguez'>Learn more about Salvador</a>");
+thomasP.bindPopup("<h2>Thomas Panto, Age 32</h2><img src='https://briannacaszatt.commons.gc.cuny.edu/wp-content/blogs.dir/18156/files/2022/07/HonewellSt_NorthernBlvd-scaled.jpg' alt='Ghost Bike Sign in Queens' style='width:121px;height:256px;'><br><a href='https://nyc.streetsblog.org/2021/10/11/e-cyclist-rider-killed-on-roadway-that-once-had-a-protected-bike-lane-until-dot-downgraded-it/'>Learn more about Thomas</a>");
+gelacioRR.bindPopup("<h2>Gelacio Reyes Rosendo, Age 32</h2><img src='https://briannacaszatt.commons.gc.cuny.edu/wp-content/blogs.dir/18156/files/2022/07/43Ave_39St-scaled.jpg' alt='Ghost Bike in Queens' style='width:121px;height:256px;'><br><a href='http://ghostbikes.org/new-york-city/gelacio-reyes-rosendo'>Learn more about Gelacio</a>");
+rogerH.bindPopup("<h2>Roger Hernandez, Age 37</h2><img src='https://briannacaszatt.commons.gc.cuny.edu/wp-content/blogs.dir/18156/files/2022/07/GreenpointAve_39St-scaled.jpg' alt='Ghost Bike in Queens' style='width:121px;height:256px;'><br><a href='http://ghostbikes.org/new-york-city/roger-hernandez'>Learn more about Roger</a>");
+hugoR.bindPopup("<h2>Hugo Ramirez, Age 23</h2><img src='https://briannacaszatt.commons.gc.cuny.edu/wp-content/blogs.dir/18156/files/2022/07/48St_LongIslandExpwy-scaled.jpg' alt='Ghost Bike in Queens' style='width:256px;height:121px;'><br><a href='http://ghostbikes.org/new-york-city/hugo-ramirez'>Learn more about Hugo</a>");
+anaR.bindPopup("<h2>Ana Rodriguez, Age 34</h2><img src='https://briannacaszatt.commons.gc.cuny.edu/wp-content/blogs.dir/18156/files/2022/07/56Rd_48St-scaled.jpg' alt='Ghost Bike Sign in Queens' style='width:121px;height:256px;'><br><a href='http://ghostbikes.org/new-york-city/ana-rodriguez'>Learn more about Ana</a>");
