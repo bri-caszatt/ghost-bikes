@@ -69,7 +69,7 @@ let salvadorVideoOverlay = L.videoOverlay(salvadorVideoUrl, salvadorLatLngBounds
     errorOverlayUrl: salvadorErrorOverlayUrl,
     interactive: true,
     autoplay: true,
-    muted: false,
+    muted: true,
     playsInline: true
 }).addTo(nycMap);
 
@@ -83,7 +83,7 @@ let thomasVideoOverlay = L.videoOverlay(thomasVideoUrl, thomasLatLngBounds, {
     errorOverlayUrl: thomasErrorOverlayUrl,
     interactive: true,
     autoplay: true,
-    muted: false,
+    muted: true,
     playsInline: true
 }).addTo(nycMap);
 
@@ -97,7 +97,7 @@ let gelacioVideoOverlay = L.videoOverlay(gelacioVideoUrl, gelacioLatLngBounds, {
     errorOverlayUrl: gelacioErrorOverlayUrl,
     interactive: true,
     autoplay: true,
-    muted: false,
+    muted: true,
     playsInline: true
 }).addTo(nycMap);
 
@@ -111,7 +111,7 @@ let rogerVideoOverlay = L.videoOverlay(rogerVideoUrl, rogerLatLngBounds, {
     errorOverlayUrl: rogerErrorOverlayUrl,
     interactive: true,
     autoplay: true,
-    muted: false,
+    muted: true,
     playsInline: true
 }).addTo(nycMap);
 
@@ -125,7 +125,7 @@ let hugoVideoOverlay = L.videoOverlay(hugoVideoUrl, hugoLatLngBounds, {
     errorOverlayUrl: hugoErrorOverlayUrl,
     interactive: true,
     autoplay: true,
-    muted: false,
+    muted: true,
     playsInline: true
 }).addTo(nycMap);
 
@@ -139,7 +139,7 @@ let anaVideoOverlay = L.videoOverlay(anaVideoUrl, anaLatLngBounds, {
     errorOverlayUrl: anaErrorOverlayUrl,
     interactive: true,
     autoplay: true,
-    muted: false,
+    muted: true,
     playsInline: true
 }).addTo(nycMap);
 
