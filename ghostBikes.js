@@ -39,7 +39,8 @@ const polyline = L.polyline([
     [40.74578170390995, -73.92602568249532], //to gelacioRR on 43 Ave at 39 St
     [40.73861788151151, -73.9271128890819], //to 39 St and Greenpoint Ave
     [40.738954609806605, -73.92666702604866], //to rogerH on Greenpoint Ave east of 39 St
-    [40.74273680482373, -73.91671745316953], //to Greenpoint Ave and 48 St
+    [40.739881286941525, -73.92428520254099], //to 48 Ave and 41 St
+    [40.739083543963574, -73.91757606160857], //to 48 Ave and 48 St
     [40.731403559294804, -73.91913776055202], //to hugoR on 48th at Long Island Exp Entrance
     [40.73120405948514, -73.91920648254266], //48 St slants at 54 Ave
     [40.730089152958506, -73.91896323632581], //48 St stops slant at 54 St
@@ -104,7 +105,7 @@ let gelacioVideoOverlay = L.videoOverlay(gelacioVideoUrl, gelacioLatLngBounds, {
 //rogerH
 let rogerVideoUrl = 'https://briannacaszatt.commons.gc.cuny.edu/wp-content/blogs.dir/18156/files/2022/07/GreenpointAve_39St.mp4';
 let rogerErrorOverlayUrl = 'https://briannacaszatt.commons.gc.cuny.edu/wp-content/blogs.dir/18156/files/2022/07/GreenpointAve_39St.mp4';
-let rogerLatLngBounds = L.latLngBounds([[40.738954609806605, -73.92666702604866], [40.74861939506957, -73.93561481236107]]);
+let rogerLatLngBounds = L.latLngBounds([[40.738954609806605, -73.92666702604866], [40.72918669220979, -73.93653753262411]]);
 
 let rogerVideoOverlay = L.videoOverlay(rogerVideoUrl, rogerLatLngBounds, {
     opacity: 1,
@@ -118,7 +119,7 @@ let rogerVideoOverlay = L.videoOverlay(rogerVideoUrl, rogerLatLngBounds, {
 //hugoR
 let hugoVideoUrl = 'https://briannacaszatt.commons.gc.cuny.edu/wp-content/blogs.dir/18156/files/2022/07/48St_LongIslandExpwy.mp4';
 let hugoErrorOverlayUrl = 'https://briannacaszatt.commons.gc.cuny.edu/wp-content/blogs.dir/18156/files/2022/07/48St_LongIslandExpwy.mp4';
-let hugoLatLngBounds = L.latLngBounds([[40.731403559294804, -73.91913776055202], [40.74129299364717, -73.91152031628944]]);
+let hugoLatLngBounds = L.latLngBounds([[40.731403559294804, -73.91913776055202], [40.741179167334415, -73.90868789154612]]);
 
 let hugoVideoOverlay = L.videoOverlay(hugoVideoUrl, hugoLatLngBounds, {
     opacity: 1,
