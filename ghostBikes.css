@@ -13,7 +13,8 @@
 
 #info_text {
 	font-size: 40px;
-	color: rgb(124, 125, 128)
+	color: rgb(159, 159, 161);
+	text-shadow: 4px 4px lightgray;
 }
 
 #storymap_link {
