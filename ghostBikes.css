@@ -7,17 +7,15 @@
 	left: 0;
 }
 
-#info_text {
+.leaflet-container {
 	font-family: Futura, sans-serif;
+}
+
+#info_text {
 	font-size: 40px;
 	color: rgb(124, 125, 128)
 }
 
-h3 {
-	font-family: Futura, sans-serif
-}
-
 #storymap_link {
-	font-family: Futura, sans-serif;
 	font-size: 15px;
 }
