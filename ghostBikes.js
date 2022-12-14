@@ -46,7 +46,7 @@ const polyline = L.polyline([
     [40.726299109820005, -73.92038219024525], //48 St at 56 Rd
     [40.726305684231946, -73.92032085301416] //anaR on 56 Rd just eaast of 48 St
 ], {
-    color: "gray"
+    color: "lightblue"
 }).addTo(nycMap);
 
 
