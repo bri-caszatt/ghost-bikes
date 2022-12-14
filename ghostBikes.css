@@ -6,3 +6,18 @@
 	top: 0;
 	left: 0;
 }
+
+#info_text {
+	font-family: Futura, sans-serif;
+	font-size: 40px;
+	color: rgb(124, 125, 128)
+}
+
+h3 {
+	font-family: Futura, sans-serif
+}
+
+#storymap_link {
+	font-family: Futura, sans-serif;
+	font-size: 15px;
+}
